@@ -1,5 +1,9 @@
 import PyPDF2 as pypdf
 import os
+
+# EVN vars
+from env import directory
+
 directory = '/Users/abhijit/Desktop/code-for-boston/clean-slate/data/Archive/'
 for file in os.listdir(directory):
     if not file.endswith(".pdf"):
